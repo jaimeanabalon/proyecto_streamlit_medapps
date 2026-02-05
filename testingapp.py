@@ -3,13 +3,13 @@ import pandas as pd
 
 
 def calculadora_carbo(auc=6, edad=40, peso=70, crea=1, sexo='hombre'):
-	clearance = ((140 - edad) * peso) / (crea * 72)
-	if sexo == 'mujer':
-	    clearance = clearance * 0.85
+    clearance = ((140 - edad) * peso) / (crea * 72)
+    if sexo == 'mujer':
+        clearance = clearance * 0.85
     if clearance >= 125:
         clearance = 125
-	dosis = auc * (clearance + 25)
-	return dosis
+    dosis = auc * (clearance + 25)
+    return dosis
 
 auc_input = st.number_input("AUC Deseada", min_value=1, step=1)
 edad_input = st.number_input("Edad", min_value=18, step=1)
