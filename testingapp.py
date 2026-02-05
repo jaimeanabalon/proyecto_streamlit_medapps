@@ -6,6 +6,8 @@ def calculadora_carbo(auc=6, edad=40, peso=70, crea=1, sexo='hombre'):
 	clearance = ((140 - edad) * peso) / (crea * 72)
 	if sexo == 'mujer':
 		clearance = clearance * 0.85
+    if clearance >= 125:
+        clearance = 125
 	dosis = auc * (clearance + 25)
 	return dosis
 
