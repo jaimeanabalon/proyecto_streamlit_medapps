@@ -12,6 +12,10 @@ tnm9_definiciones_t_clinico = {
     'cT3':'Tumor > 5 cm but ≤ 7 cm in greatest dimension OR Tumor ≤ 7 cm with one or more of the following features:Invades parietal pleura or chest wall, Invades pericardium, phrenic nerve or azygos vein (Although these structures lie within the mediastinum, the degree of mediastinal penetration by the tumor needed to invade these structures is not counted as T4), Invades thoracic nerve roots (i.e., T1, T2) or stellate ganglion, Separate tumor nodule(s) in the same lobe as the primary',
     'cT4':['Tumor > 7 cm in greatest dimension', 'Tumor of any size with one or more of the following features:Invades mediastinum (except structures listed in T3), thymus, trachea, carina, recurrent laryngeal nerve, vagus nerve, esophagus or diaphragm, Invades heart, great vessels (aorta, superior/inferior vena cava, intrapericardial pulmonary arteries/veins), supra-aortic arteries or brachiocephalic veins, Invades subclavian vessels, vertebral body, lamina, spinal canal, cervical nerve roots or brachial plexus (i.e., trunks, divisions, cords or terminal nerves), Separate tumor nodule(s) in a different ipsilateral lobe than that of the primary']
 }
+
+t2_invasion = ['pleura visceral','lobulo adyacente','bronquio principal, no carina','atelectasia y/o neumonía postobstructiva','hilio pulmonar']
+t3_invasion = ['pleura parietal','pared torácica','pericardio','nervio frenico','vena azigos','raíces nerviosas torácicas','ganglio estrellado']
+t4_invasion = ['timo','traquea','carina','nv. laringeo recurrente','nv.vago','esofago','diafragma','corazón','vena cava inferior','vena cava superior','art venas pulmonares intrapericardicas','arterias supraaorticas','venas braquiocefalicas','vasos subclavios','cuerpo vertebral','lamina vertebral','canal medular','raices nerviosas cervicales','plexo braquial']
 tnm9_definiciones_n_clinico = {
     'cNX':'Los ganglios linfáticos regionales no pueden ser evaluados',
     'cN0':'No hay metástasis en los ganglios linfáticos regionales',
