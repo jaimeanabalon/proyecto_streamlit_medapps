@@ -1,6 +1,6 @@
 {
-  "tnm_version": "9th Edition",
-  "cancer_type": "Lung Cancer",
+  "tnm_version": "9",
+  "cancer_type": "Cancer de pulmón",
   "definitions": {
     "T": {
       "clinical": {
