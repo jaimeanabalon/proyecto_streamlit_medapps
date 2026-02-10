@@ -1,0 +1,43 @@
+{
+	"code": {
+		"coding": [
+			{
+				"code": "51144-050-01",
+				"display": "ADCETRIS, 1 VIAL, SINGLE-DOSE in 1 BOX (51144-050-01) > 10.5 mL in 1 VIAL, SINGLE-DOSE (package)",
+				"system": "http://hl7.org/fhir/sid/ndc"
+			}
+		],
+		"text": "Adcetris"
+	},
+	"contained": [
+		{
+			"id": "mmanu",
+			"name": "Medication Manufacturer",
+			"resourceType": "Organization"
+		}
+	],
+	"doseForm": {
+		"coding": [
+			{
+				"code": "421637006",
+				"display": "Lyophilised powder for conventional release solution for injection",
+				"system": "http://snomed.info/sct"
+			}
+		]
+	},
+	"id": "med0306",
+	"instance": {
+		"expirationDate": "2019-10-31",
+		"identifier": [
+			{
+				"system": "http://hl7.org/fhir/sid/gs1-128",
+				"value": "(01)00351144050016(10)A1234(17)251031(21)SN987654321"
+			}
+		],
+		"lotNumber": "12345"
+	},
+	"marketingAuthorizationHolder": {
+		"reference": "#mmanu"
+	},
+	"resourceType": "Medication"
+}
