@@ -1,70 +1,68 @@
 {
-  "tnm_version": "9",
   "cancer_type": "Cancer de pulmón",
   "definitions": {
-    "T": {
+    "M": {
       "clinical": {
-        "cTX": "El tumor primario no puede ser evaluado. Incluye tumores comprobados por la presencia de células malignas en esputo o lavados bronquiales, pero que no son visualizados mediante imágenes o broncoscopía.",
-        "cT0": "Sin evidencia de tumor primario",
-        "cT1": "Tumor ≤ 3 cm en su dimensión mayor, rodeado por pulmón o pleura visceral, o en un bronquio lobar o más periférico.",
-        "cT1mi": "Minimally invasive adenocarcinoma: adenocarcinoma (≤ 3 cm in greatest dimension) with a predominantly lepidic pattern and ≤ 5 mm invasion in greatest dimension",
-        "cT1a": "Tumor ≤ 1 cm in greatest dimension OR Tumor of any size whose invasive component is limited to the bronchial wall and may extend proximal to the main bronchus, this is an uncommon superficial, spreading tumor",
-        "cT1b": "Tumor > 1 cm but ≤ 2 cm in greatest dimension",
-        "cT1c": "Tumor > 2 cm but ≤ 3 cm in greatest dimension",
-        "cT2": "Tumor > 3 cm but ≤ 5 cm in greatest dimension; OR Tumor ≤ 4 cm with: Invades visceral pleura, Invades an adjacent lobe, Involves main bronchus (up to but not including the carina); OR associated with atelectasis or obstructive pneumonitis, extending to the hilar regions, involving either part of or the entire lung",
-        "cT2a": "Tumor > 3 cm but ≤ 4 cm in greatest dimension OR Tumor ≤ 4 cm in greatest dimension with one or more of the following features: Invades visceral pleura, Invades an adjacent lobe, Involves main bronchus (up to but not including the carina) or associated with atelectasis or obstructive pneumonitis, extending to the hilar regions, involving either part of or the entire lung",
-        "cT2b": "Tumor > 4 cm but ≤ 5 cm in greatest dimension with or without any of the following features: Invades visceral pleura, Invades an adjacent lobe, Involves main bronchus (up to but not including the carina) or associated with atelectasis or obstructive pneumonitis, extending to the hilar regions, involving either part of or the entire lung",
-        "cT3": "Tumor > 5 cm but ≤ 7 cm in greatest dimension OR Tumor ≤ 7 cm with one or more of the following features: Invades parietal pleura or chest wall, Invades pericardium, phrenic nerve or azygos vein, Invades thoracic nerve roots (i.e., T1, T2) or stellate ganglion, Separate tumor nodule(s) in the same lobe as the primary",
-        "cT4": "Tumor > 7 cm in greatest dimension; OR Tumor of any size with: Invades mediastinum, thymus, trachea, carina, recurrent laryngeal nerve, vagus nerve, esophagus or diaphragm, Invades heart, great vessels, supra-aortic arteries or brachiocephalic veins, Invades subclavian vessels, vertebral body, lamina, spinal canal, cervical nerve roots or brachial plexus, Separate tumor nodule(s) in a different ipsilateral lobe"
-      },
-      "pathological": {
-        "pTX": "Primary tumor cannot be assessed. Includes tumors proven by the presence of malignant cells in sputum or bronchial washings but not visualized by imaging or bronchoscopy",
-        "pT0": "No evidence of primary tumor",
-        "pTis": "Carcinoma in situ. Squamous cell carcinoma in situ (SCIS). Adenocarcinoma in situ (AIS): adenocarcinoma with pure lepidic pattern, ≤ 3 cm in greatest dimension",
-        "pT1": "Tumor ≤ 3 cm en su dimensión mayor, rodeado por pulmón o pleura visceral, o en un bronquio lobar o más periférico",
-        "pT1mi": "Minimally invasive adenocarcinoma: adenocarcinoma (≤ 3 cm in greatest dimension) with a predominantly lepidic pattern and ≤ 5 mm invasion in greatest dimension",
-        "pT1a": "Tumor ≤ 1 cm in greatest dimension OR Tumor of any size whose invasive component is limited to the bronchial wall and may extend proximal to the main bronchus",
-        "pT1b": "Tumor > 1 cm but ≤ 2 cm in greatest dimension",
-        "pT1c": "Tumor > 2 cm but ≤ 3 cm in greatest dimension",
-        "pT2": "Tumor > 3 cm but ≤ 5 cm in greatest dimension OR Tumor ≤ 4 cm with features: Invades visceral pleura, Invades an adjacent lobe, Involves main bronchus, or associated with atelectasis/pneumonitis",
-        "pT2a": "Tumor > 3 cm but ≤ 4 cm in greatest dimension OR Tumor ≤ 4 cm with visceral pleura invasion, adjacent lobe invasion, or main bronchus involvement",
-        "pT2b": "Tumor > 4 cm but ≤ 5 cm in greatest dimension with or without T2 features",
-        "pT3": "Tumor > 5 cm but ≤ 7 cm or invading parietal pleura, chest wall, pericardium, phrenic nerve, or separate nodule in same lobe",
-        "pT4": "Tumor > 7 cm or invading mediastinum, heart, great vessels, trachea, esophagus, diaphragm, or separate nodule in different ipsilateral lobe"
-      },
-      "post_treatment": {
-        "ycTX": "Primary tumor cannot be assessed. (Sputum/washings positive but not visualized)",
-        "ycT0": "No evidence of primary tumor",
-        "ycTis": "Carcinoma in situ (SCIS or AIS)",
-        "ycT1": "Tumor ≤ 3 cm surrounded by lung/visceral pleura",
-        "ycT1mi": "Minimally invasive adenocarcinoma",
-        "ycT1a": "Tumor ≤ 1 cm or superficial spreading",
-        "ycT1b": "Tumor > 1 cm but ≤ 2 cm",
-        "ycT1c": "Tumor > 2 cm but ≤ 3 cm",
-        "ycT2": "Tumor > 3 cm but ≤ 5 cm or ≤ 4 cm with pleura/bronchus involvement",
-        "ycT2a": "Tumor > 3 cm but ≤ 4 cm or equivalent features",
-        "ycT2b": "Tumor > 4 cm but ≤ 5 cm or equivalent features",
-        "ycT3": "Tumor > 5 cm but ≤ 7 cm or invading chest wall/pericardium",
-        "ycT4": "Tumor > 7 cm or invading mediastinum/great vessels/diaphragm"
+        "cM0": "No hay metástasis a distancia",
+        "cM1a": "Nódulos en pulmón contralateral; derrame pleural/pericárdico maligno; implantes pleurales/pericárdicos",
+        "cM1b": "Metástasis a distancia única en un solo órgano",
+        "cM1c": "Metástasis a distancia múltiples en uno o más órganos",
+        "cMX": "La presencia de metástasis a distancia no puede ser evaluada"
       }
     },
     "N": {
       "clinical": {
-        "cNX": "Los ganglios linfáticos regionales no pueden ser evaluados",
         "cN0": "No hay metástasis en los ganglios linfáticos regionales",
         "cN1": "Metástasis en ganglios linfáticos peribronquiales e hiliares ipsilaterales",
         "cN2": "Metástasis en ganglios linfáticos mediastínicos e hiliares ipsilaterales (incluye subcarinales)",
-        "cN3": "Metástasis en ganglios linfáticos contralaterales o supraclaviculares"
+        "cN3": "Metástasis en ganglios linfáticos contralaterales o supraclaviculares",
+        "cNX": "Los ganglios linfáticos regionales no pueden ser evaluados"
       }
     },
-    "M": {
+    "T": {
       "clinical": {
-        "cMX": "La presencia de metástasis a distancia no puede ser evaluada",
-        "cM0": "No hay metástasis a distancia",
-        "cM1a": "Nódulos en pulmón contralateral; derrame pleural/pericárdico maligno; implantes pleurales/pericárdicos",
-        "cM1b": "Metástasis a distancia única en un solo órgano",
-        "cM1c": "Metástasis a distancia múltiples en uno o más órganos"
+        "cT0": "Sin evidencia de tumor primario",
+        "cT1a": "Tumor ≤ 1 cm in greatest dimension OR Tumor of any size whose invasive component is limited to the bronchial wall and may extend proximal to the main bronchus, this is an uncommon superficial, spreading tumor",
+        "cT1b": "Tumor > 1 cm but ≤ 2 cm in greatest dimension",
+        "cT1c": "Tumor > 2 cm but ≤ 3 cm in greatest dimension",
+        "cT1mi": "Minimally invasive adenocarcinoma: adenocarcinoma (≤ 3 cm in greatest dimension) with a predominantly lepidic pattern and ≤ 5 mm invasion in greatest dimension",
+        "cT2a": "Tumor > 3 cm but ≤ 4 cm in greatest dimension OR Tumor ≤ 4 cm in greatest dimension with one or more of the following features: Invades visceral pleura, Invades an adjacent lobe, Involves main bronchus (up to but not including the carina) or associated with atelectasis or obstructive pneumonitis, extending to the hilar regions, involving either part of or the entire lung",
+        "cT2b": "Tumor > 4 cm but ≤ 5 cm in greatest dimension with or without any of the following features: Invades visceral pleura, Invades an adjacent lobe, Involves main bronchus (up to but not including the carina) or associated with atelectasis or obstructive pneumonitis, extending to the hilar regions, involving either part of or the entire lung",
+        "cT3": "Tumor > 5 cm but ≤ 7 cm in greatest dimension OR Tumor ≤ 7 cm with one or more of the following features: Invades parietal pleura or chest wall, Invades pericardium, phrenic nerve or azygos vein, Invades thoracic nerve roots (i.e., T1, T2) or stellate ganglion, Separate tumor nodule(s) in the same lobe as the primary",
+        "cT4": "Tumor > 7 cm in greatest dimension; OR Tumor of any size with: Invades mediastinum, thymus, trachea, carina, recurrent laryngeal nerve, vagus nerve, esophagus or diaphragm, Invades heart, great vessels, supra-aortic arteries or brachiocephalic veins, Invades subclavian vessels, vertebral body, lamina, spinal canal, cervical nerve roots or brachial plexus, Separate tumor nodule(s) in a different ipsilateral lobe",
+        "cTX": "El tumor primario no puede ser evaluado. Incluye tumores comprobados por la presencia de células malignas en esputo o lavados bronquiales, pero que no son visualizados mediante imágenes o broncoscopía."
+      },
+      "pathological": {
+        "pT0": "No evidence of primary tumor",
+        "pT1": "Tumor ≤ 3 cm en su dimensión mayor, rodeado por pulmón o pleura visceral, o en un bronquio lobar o más periférico",
+        "pT1a": "Tumor ≤ 1 cm in greatest dimension OR Tumor of any size whose invasive component is limited to the bronchial wall and may extend proximal to the main bronchus",
+        "pT1b": "Tumor > 1 cm but ≤ 2 cm in greatest dimension",
+        "pT1c": "Tumor > 2 cm but ≤ 3 cm in greatest dimension",
+        "pT1mi": "Minimally invasive adenocarcinoma: adenocarcinoma (≤ 3 cm in greatest dimension) with a predominantly lepidic pattern and ≤ 5 mm invasion in greatest dimension",
+        "pT2": "Tumor > 3 cm but ≤ 5 cm in greatest dimension OR Tumor ≤ 4 cm with features: Invades visceral pleura, Invades an adjacent lobe, Involves main bronchus, or associated with atelectasis/pneumonitis",
+        "pT2a": "Tumor > 3 cm but ≤ 4 cm in greatest dimension OR Tumor ≤ 4 cm with visceral pleura invasion, adjacent lobe invasion, or main bronchus involvement",
+        "pT2b": "Tumor > 4 cm but ≤ 5 cm in greatest dimension with or without T2 features",
+        "pT3": "Tumor > 5 cm but ≤ 7 cm or invading parietal pleura, chest wall, pericardium, phrenic nerve, or separate nodule in same lobe",
+        "pT4": "Tumor > 7 cm or invading mediastinum, heart, great vessels, trachea, esophagus, diaphragm, or separate nodule in different ipsilateral lobe",
+        "pTX": "Primary tumor cannot be assessed. Includes tumors proven by the presence of malignant cells in sputum or bronchial washings but not visualized by imaging or bronchoscopy",
+        "pTis": "Carcinoma in situ. Squamous cell carcinoma in situ (SCIS). Adenocarcinoma in situ (AIS): adenocarcinoma with pure lepidic pattern, ≤ 3 cm in greatest dimension"
+      },
+      "post_treatment": {
+        "ycT0": "No evidence of primary tumor",
+        "ycT1": "Tumor ≤ 3 cm surrounded by lung/visceral pleura",
+        "ycT1a": "Tumor ≤ 1 cm or superficial spreading",
+        "ycT1b": "Tumor > 1 cm but ≤ 2 cm",
+        "ycT1c": "Tumor > 2 cm but ≤ 3 cm",
+        "ycT1mi": "Minimally invasive adenocarcinoma",
+        "ycT2": "Tumor > 3 cm but ≤ 5 cm or ≤ 4 cm with pleura/bronchus involvement",
+        "ycT2a": "Tumor > 3 cm but ≤ 4 cm or equivalent features",
+        "ycT2b": "Tumor > 4 cm but ≤ 5 cm or equivalent features",
+        "ycT3": "Tumor > 5 cm but ≤ 7 cm or invading chest wall/pericardium",
+        "ycT4": "Tumor > 7 cm or invading mediastinum/great vessels/diaphragm",
+        "ycTX": "Primary tumor cannot be assessed. (Sputum/washings positive but not visualized)",
+        "ycTis": "Carcinoma in situ (SCIS or AIS)"
       }
     }
-  }
+  },
+  "tnm_version": "9"
 }

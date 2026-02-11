@@ -62,3 +62,7 @@ paciente_onco = LungTumorStagingPro(
 )
 
 print(json.dumps(paciente_onco.to_dict(), indent=4))
+
+t2_invasion = ['pleura visceral','lobulo adyacente','bronquio principal, no carina','atelectasia y/o neumonía postobstructiva','hilio pulmonar']
+t3_invasion = ['pleura parietal','pared torácica','pericardio','nervio frenico','vena azigos','raíces nerviosas torácicas','ganglio estrellado']
+t4_invasion = ['timo','traquea','carina','nv. laringeo recurrente','nv.vago','esofago','diafragma','corazón','vena cava inferior','vena cava superior','art venas pulmonares intrapericardicas','arterias supraaorticas','venas braquiocefalicas','vasos subclavios','cuerpo vertebral','lamina vertebral','canal medular','raices nerviosas cervicales','plexo braquial']
