@@ -10,12 +10,19 @@ st.radio("Lateralidad del tumor", ["Izquierdo", "Derecho",], index=0, key="later
 diametro = st.number_input("Diámetro máximo del tumor (mm)", min_value=5, max_value=20, step=1, value="min", key="diametro")
 
 # invasion = st.multiselect("Invasión de estructuras adyacentes", t2_invasion, key="invasion")
+col1, col2, col3 = st.columns(3)
 
-for i in t2_invasion:
-    st.checkbox(i, key=f"t2_{i}")
+with col1:
+    st.subheader("Invasión T2")
+    for i in t2_invasion:
+        st.checkbox(i, key=f"t2_{i}")
 
-for i in t3_invasion:
-    st.checkbox(i, key=f"t3_{i}")
+with col2:
+    st.subheader("Invasión T3")
+    for i in t3_invasion:
+        st.checkbox(i, key=f"t3_{i}")
 
-for i in t4_invasion:
-    st.checkbox(i, key=f"t4_{i}")
+with col3:
+    st.subheader("Invasión T4")
+    for i in t4_invasion:
+        st.checkbox(i, key=f"t4_{i}")
