@@ -18,14 +18,16 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.subheader("Invasión T2")
     for i in t2_invasion:
-        st.checkbox(i, key=f"t2_{i}")
+        st.checkbox(i, key=f"t2_{str(i)}")
+
+}")
 
 with col2:
     st.subheader("Invasión T3")
     for i in t3_invasion:
-        st.checkbox(i, key=f"t3_{i}")
+        st.checkbox(i, key=f"t3_{str(i)}")
 
 with col3:
     st.subheader("Invasión T4")
     for i in t4_invasion:
-        st.checkbox(i, key=f"t4_{i}")
+        st.checkbox(i, key=f"t4_{str(i)}")
