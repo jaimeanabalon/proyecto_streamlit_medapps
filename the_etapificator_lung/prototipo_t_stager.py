@@ -9,4 +9,4 @@ st.radio("Lateralidad del tumor", ["Izquierdo", "Derecho",], index=0, key="later
 
 diametro = st.number_input("Diámetro máximo del tumor (mm)", min_value=5, max_value=20, step=1, value="min", key="diametro")
 
-invasion = st.checkbox("Invasión de estructuras adyacentes", args = t2_invasion, key="invasion")
+invasion = st.selectbox("Invasión de estructuras adyacentes", args = t2_invasion, key="invasion")
