@@ -20,7 +20,6 @@ with col1:
     for i in t2_invasion:
         st.checkbox(i, key=f"t2_{str(i)}")
 
-}")
 
 with col2:
     st.subheader("Invasión T3")
