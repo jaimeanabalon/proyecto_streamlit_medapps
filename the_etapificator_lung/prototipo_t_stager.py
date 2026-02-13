@@ -12,6 +12,10 @@ st.radio("Lateralidad del tumor", ["Izquierdo", "Derecho",], index=0, key="later
 
 diametro = st.number_input("Diámetro máximo del tumor (mm)", min_value=5, max_value=100, step=1, value="min", key="diametro")
 
+st.radio("¿Son tumores separados?", ["Sí", "No"], index=1, key="tumores_separados")
+st.checkbox("¿En el mismo lóbulo?", key="tumor_multiples_segmentos")
+st.checkbox("¿En el mismo pulmón?", key="tumor_mismo_pulmon")
+st.checkbox("¿En el pulmón contralateral?", key="tumor_contralateral")
 # invasion = st.multiselect("Invasión de estructuras adyacentes", t2_invasion, key="invasion")
 col1, col2, col3 = st.columns(3)
 
